@@ -5,7 +5,7 @@ font-family: 'Raleway', sans-serif;
 font-size: large;
 margin: 0;
 padding: 0;
-background-color: #FACB49;
+background-color: white;
 color: black;
 }
 
@@ -41,8 +41,8 @@ nav a.active :hover {
 }
 
 .textprésentation {
-  margin-left: 3cm;
-  margin-right: 3cm;
+  margin-left: 4cm;
+  margin-right: 4cm;
   margin-top: 3cm;
 }
 
@@ -50,9 +50,19 @@ li {
   list-style-type: none;
 }
 
+li a {
+  list-style-type: none;
+  text-decoration: none;
+  /* enlever le surlignement et couleur d'un hyperlien */
+  color: gray;
+}
+li a:hover{
+  color: whitesmoke;
+}
+
 footer {
-  margin-left: 3cm;
-  margin-right: 3cm;
+  margin-left: 4cm;
+  margin-right: 4cm;
   margin-top: 2.5cm;
 }
 
@@ -62,12 +72,11 @@ h1 {
   padding-bottom: 0.3cm;
   margin-bottom: 2cm;
   margin-top: 2cm;
-  margin-left: 13cm;
-  margin-right: 13cm;
+  margin-left: 12cm;
+  margin-right: 12cm;
   border-width: 2px;
   border-style: groove;
   border-color: black;
 }
-
 
 
