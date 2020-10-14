@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Open+Sans&family=Poppins:wght@100&display=swap");
 
 body{
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -73,3 +73,15 @@ nav {
     display: flex;
     justify-content: center;
 }
+
+#vidéoeclipse {
+margin-left: 4cm;
+
+}
+
+iframe {
+  border-radius: 2rem;
+  margin-right: 0.3cm;
+  margin-bottom: 1cm;
+}
+

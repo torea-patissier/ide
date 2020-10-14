@@ -74,3 +74,14 @@ font-size: larger;
     display: flex;
     justify-content: center;
 }
+
+#vscode {
+  margin-top: 2cm;
+  margin-left: 7cm;
+  margin-right: 7cm;
+  margin-bottom: 2cm;
+  }
+
+  #vscode image {
+    justify-content: center;
+  }

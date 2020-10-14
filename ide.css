@@ -5,12 +5,12 @@ font-family: 'Raleway', sans-serif;
 font-size: large;
 margin: 0;
 padding: 0;
-background-color: white;
-color: black;
+background-color: #2C2C32;
+color: whitesmoke;
 }
 
 nav {
-  background-color: #333;
+  background-color: black;
   overflow: hidden;
   padding-bottom: 0.5cm;
   border: none !important ;
@@ -48,16 +48,14 @@ nav a.active :hover {
 
 li {
   list-style-type: none;
+  /* enlever les bullets points */
 }
 
 li a {
-  list-style-type: none;
-  text-decoration: none;
-  /* enlever le surlignement et couleur d'un hyperlien */
-  color: gray;
+  color: whitesmoke;
 }
 li a:hover{
-  color: whitesmoke;
+  color: gray;
 }
 
 footer {
@@ -76,7 +74,17 @@ h1 {
   margin-right: 12cm;
   border-width: 2px;
   border-style: groove;
-  border-color: black;
+  border-color: whitesmoke;
 }
 
+.tracking-in-expand{
+  font-size: xx-large;
+  font-weight: 400;
+
+}
+
+
+.tracking-in-expand{animation:tracking-in-expand 1s cubic-bezier(.215,.61,.355,1.000) both}
+
+ @keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
 
